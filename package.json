@@ -1,0 +1,35 @@
+{
+  "name": "ada-ai",
+  "version": "1.0.0",
+  "description": "Personal AI assistant named after Ada Lovelace",
+  "main": "ada.js",
+  "scripts": {
+    "start": "node ada.js",
+    "dev": "nodemon ada.js"
+  },
+  "keywords": [
+    "ai",
+    "assistant",
+    "ada-lovelace"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^7.2.1",
+    "@picovoice/porcupine-node": "^4.0.1",
+    "axios": "^1.13.4",
+    "dotenv": "^16.3.1",
+    "mic": "^2.1.2",
+    "node-audiorecorder": "^3.0.0",
+    "node-record-lpcm16": "^1.0.1",
+    "ollama": "^0.6.3",
+    "openai": "^6.18.0",
+    "rss-parser": "^3.13.0",
+    "say": "^0.16.0",
+    "wav": "^1.0.2",
+    "whisper-node": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

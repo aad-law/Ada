@@ -1,0 +1,44 @@
+echo node_modules/ > .gitignore
+echo .env >> .gitignore
+echo temp_audio.wav >> .gitignore
+echo *.log >> .gitignore
+```
+
+**Option B - Using Notepad:**
+1. Open Notepad
+2. Paste this content:
+```
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Temporary audio files
+temp_audio.wav
+*.wav
+*.mp3
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Whisper models (large files)
+models/
+*.bin
+
+# Build outputs
+dist/
+build/
+output/
